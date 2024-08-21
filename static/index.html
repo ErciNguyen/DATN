@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.32.0.min.js" charset="utf-8"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="myDiv" class="container">
+
+        <h1>Data Daily</h1>
+        <button @click="loadData">Load Data</button>
+        <div id="tableContainer">
+            <table class="stock-table">
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Market</th>
+                        <th>Trading Date</th>
+                        <th>Open</th>
+                        <th>High</th>
+                        <th>Low</th>
+                        <th>Close</th>
+                        <th>Volume</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(item, index) in kpiData">
+                        <td>{{ item.Symbol }}</td>
+                        <td :class="{ 'red': index > 0 && item.Value < kpiData[index - 1].Value, 'green': index > 0 && item.Value > kpiData[index - 1].Value }">{{ item.Value }}</td>
+                        <td>{{ item.TradingDate }}</td>
+                        <td :class="{ 'red': index > 0 && item.Open < kpiData[index - 1].Open, 'green': index > 0 && item.Open > kpiData[index - 1].Open }">{{ item.Open }}</td>
+                        <td :class="{ 'red': index > 0 && item.High < kpiData[index - 1].High, 'green': index > 0 && item.High > kpiData[index - 1].High }">{{ item.High }}</td>
+                        <td :class="{ 'red': index > 0 && item.Low < kpiData[index - 1].Low, 'green': index > 0 && item.Low > kpiData[index - 1].Low }">{{ item.Low }}</td>
+                        <td :class="{ 'red': index > 0 && item.Close < kpiData[index - 1].Close, 'green': index > 0 && item.Close > kpiData[index - 1].Close }">{{ item.Close }}</td>
+                        <td :class="{ 'red': index > 0 && item.Volume < kpiData[index - 1].Volume, 'green': index > 0 && item.Volume > kpiData[index - 1].Volume }">{{ item.Volume }}</td>
+                        <td :class="{ 'red': index > 0 && item.Value < kpiData[index - 1].Value, 'green': index > 0 && item.Value > kpiData[index - 1].Value }">{{ item.Value }}</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="priceChart">
+            <div id="chartDiv">
+
+            </div>
+
+        </div>
+
+
+        <pre>{{ JSON.stringify(kpiData, null, 2) }}</pre>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

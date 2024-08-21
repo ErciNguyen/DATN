@@ -1,0 +1,5 @@
+pycryptodome
+xmljson
+requests>=2.18.4
+websocket-client>=1.5.2
+psutil

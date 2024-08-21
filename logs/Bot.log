@@ -1,0 +1,17 @@
+2024-08-16 15:47:52 LogWrapper init() ./logs/Bot.log
+2024-08-16 15:47:53 Bot started with
+{'CACB2307': {'pair': 'CACB2307', 'units': 1, 'short_ma': 2, 'long_ma': 8},
+ 'CHPG2319': {'pair': 'CHPG2319', 'units': 10, 'short_ma': 2, 'long_ma': 8},
+ 'MBB': {'pair': 'MBB', 'units': 1, 'short_ma': 4, 'long_ma': 8},
+ 'PDR': {'pair': 'PDR', 'units': 1, 'short_ma': 4, 'long_ma': 8},
+ 'VND': {'pair': 'VND', 'units': 1, 'short_ma': 4, 'long_ma': 8}}
+2024-08-16 15:47:53 Bot Timing with
+{'CACB2307': "{'last_candle': datetime.datetime(2024, 8, 16, 8, 37, 53, "
+             "321643), 'ready': False}",
+ 'CHPG2319': "{'last_candle': datetime.datetime(2024, 8, 16, 8, 37, 53, "
+             "524658), 'ready': False}",
+ 'MBB': "{'last_candle': datetime.time(14, 45, 2), 'ready': False}",
+ 'PDR': "{'last_candle': datetime.datetime(2024, 8, 16, 8, 37, 52, 762945), "
+        "'ready': False}",
+ 'VND': "{'last_candle': datetime.datetime(2024, 8, 16, 8, 37, 53, 40978), "
+        "'ready': False}"}

@@ -1,0 +1,58 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Change background color of container */
+}
+
+.stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    /* Add border radius */
+}
+
+.stock-table th,
+.stock-table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    /* Increase padding */
+    text-align: left;
+    font-size: 14px;
+    /* Adjust font size */
+}
+
+.stock-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    /* Bold header text */
+}
+
+.stock-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+    /* Alternate row background color */
+}
+
+.stock-table tr:hover {
+    background-color: #e0e0e0;
+    /* Hover effect */
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+button {
+    float: right;
+    /* Align button to the right */
+    margin-bottom: 10px;
+}
