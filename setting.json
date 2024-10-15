@@ -1,7 +1,5 @@
 [
     { "pair": "MBB", "units": 1, "short_ma": 4, "long_ma": 8 },
-    { "pair": "PDR", "units": 1, "short_ma": 4, "long_ma": 8 },
-    { "pair": "VND", "units": 1, "short_ma": 4, "long_ma": 8 },
-    { "pair": "CACB2307", "units": 1, "short_ma": 2, "long_ma": 8 },
-    { "pair": "CHPG2319", "units": 10, "short_ma": 2, "long_ma": 8 }
+    { "pair": "PDR", "units": 1, "short_ma": 4, "long_ma": 8 }
+
 ]

@@ -8,7 +8,7 @@ from ssi_api import SsiAPI
 from technicals import Technicals
 from examples.fc_config import NONE, BUY, SELL
 from trade_manager import TradeManager
-SLEEP = 20.0
+SLEEP = 10.0
 ROW_COUNT = 1000
 
 class TradingBot:
@@ -28,15 +28,15 @@ class TradingBot:
     def log_message(self, msg):
         self.log.logger.debug(msg)
 
-    
     def update_timings(self):
         for pair in self.trade_pairs:
             current = self.api.last_complete_candle(pair)
-            last_candle = self.timings[pair].last_candle
-            
-            if current is not None and last_candle is not None:
-                if current > last_candle:
-                    self.timings[pair].last_candle = current
+            if current > self.timings[pair].last_candle:
+                self.timings[pair].ready = True
+                self.timings[pair].last_candle = current
+                self.log_message(f"{pair} new candle {current}")
+            else:
+                self.timings[pair].ready = False
 
     def process_pairs(self):
         trades_to_make = []

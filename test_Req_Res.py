@@ -1,4 +1,5 @@
 # import ssi_fc_trading
+import time
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.encoders import jsonable_encoder
@@ -82,49 +83,73 @@ def md_get_daily_OHLC1():
     a = pd.DataFrame(daily_OHLC_df)
     a.to_json('./static/data5.json')                                 
      
-import logging
 
-# Cấu hình logging
-logging.basicConfig(level=logging.DEBUG)
+
+
+# def md_get_intraday_OHLC() -> pd.DataFrame:
+#     # Ký hiệu và ngày cần thiết
+#     symbol = 'VND'
+#     from_date = '11/06/2024'
+#     to_date = '11/06/2024'
+#     page_index = 1
+#     page_size = 1000
+#     option = True
+#     interval = 1
+
+#     # Giả định client, model, và config đã được định nghĩa trước đó và có thể truy cập từ đây
+#     response = client.intraday_ohlc(config, model.intraday_ohlc(symbol, from_date, to_date, page_index, page_size, option, interval))
+    
+#     # Lấy dữ liệu từ response
+#     intraday_OHLC_data = response['data']  # Thay đổi đây vì dữ liệu nằm trong một mảng
+#     intraday_OHLC_df = pd.DataFrame(intraday_OHLC_data)  # Tạo DataFrame từ dữ liệu
+
+#     # Chuyển đổi ngày tháng
+#     intraday_OHLC_df['TradingDate'] = pd.to_datetime(intraday_OHLC_df['TradingDate'], format='%d/%m/%Y')
+#         data.to_json('./static/data5.json')
+#     return intraday_OHLC_df
+
 
 def md_get_intraday_OHLC(symbol: str, from_date: str, to_date: str, page_index: int = 1, page_size: int = 100, option: bool = True, interval: int = 1) -> pd.DataFrame:
-    try:
-        # Gửi yêu cầu và nhận phản hồi từ API
+    while True:  # Lặp lại cho đến khi không còn lỗi 429
+        time.sleep(1)  # Delay trước khi gửi yêu cầu
         response = client.intraday_ohlc(config, model.intraday_ohlc(symbol, from_date, to_date, page_index, page_size, option, interval))
         
-        # Log phản hồi từ API
-        logging.debug("Phản hồi từ API: %s", response)
-        
-        # Kiểm tra sự tồn tại của khóa 'data'
-        if 'data' in response:
-            if response['data'] is not None and isinstance(response['data'], list):
-                intraday_OHLC_data = response['data']
-            else:
-                logging.error("Khóa 'data' không phải là danh sách hoặc có giá trị None.")
-                return pd.DataFrame()  # Trả về DataFrame rỗng nếu không có dữ liệu hợp lệ
-        else:
-            logging.error("Khóa 'data' không tồn tại trong phản hồi của API.")
-            return pd.DataFrame()  # Trả về DataFrame rỗng nếu không có khóa 'data'
+        print("API response:", response)
 
-        # Chuyển đổi dữ liệu thành DataFrame
+        if response.get('status') == '429':  # Kiểm tra xem có phải lỗi 429 không
+            print("API calls quota exceeded. Retrying in 1 second...")
+            time.sleep(1)  # Chờ 1 giây trước khi thử lại
+            continue  # Thử lại yêu cầu
+
+        if 'data' not in response:
+            raise ValueError(f"Unexpected response format: {response}")
+
+        intraday_OHLC_data = response['data']
+
+        if not intraday_OHLC_data:
+            print("No intraday OHLC data available for the given parameters.")
+            return pd.DataFrame()
+
         intraday_OHLC_df = pd.DataFrame(intraday_OHLC_data, columns=['Symbol', 'Value', 'TradingDate', 'Time', 'Open', 'High', 'Low', 'Close', 'Volume'])
         
-        # Chuyển đổi các cột ngày và thời gian
         intraday_OHLC_df['TradingDate'] = pd.to_datetime(intraday_OHLC_df['TradingDate'], format='%d/%m/%Y')
-        intraday_OHLC_df['Time'] = pd.to_datetime(intraday_OHLC_df['Time'], format='%H:%M:%S').dt.strftime('%H:%M:%S')
-        
+
         return intraday_OHLC_df
 
-    except Exception as e:
-        # Xử lý các lỗi khác
-        logging.error("Đã xảy ra lỗi: %s", e)
-        return pd.DataFrame()  # Trả về DataFrame rỗng nếu có lỗi
 
 
 
 
 
 
+# def md_get_intraday_OHLC(symbol: str, from_date: str, to_date: str, page_index: int = 1, page_size: int = 100, option: bool = True, interval: int = 1) -> pd.DataFrame:
+#     # Giả định client, model, và config đã được định nghĩa trước đó và có thể truy cập từ đây
+#     response = client.intraday_ohlc(config, model.intraday_ohlc(symbol, from_date, to_date, page_index, page_size, option, interval))
+#     intraday_OHLC_data = response['data']
+#     intraday_OHLC_df = pd.DataFrame(intraday_OHLC_data, columns=['Symbol', 'Value', 'TradingDate', 'Time', 'Open', 'High', 'Low', 'Close', 'Volume'])
+#     intraday_OHLC_df['TradingDate'] = pd.to_datetime(intraday_OHLC_df['TradingDate'], format='%d/%m/%Y')
+#     # intraday_OHLC_df['Time'] = pd.to_datetime(intraday_OHLC_df['Time']).dt.time
+#     return intraday_OHLC_df
 
 
 def md_get_daily_index():
@@ -160,6 +185,7 @@ def main():
             md_get_daily_OHLC()
         elif value == '16':
             md_get_intraday_OHLC()
+
         elif value == '17':
             md_get_daily_index()
         elif value == '18':

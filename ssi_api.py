@@ -58,36 +58,15 @@ class SsiAPI:
             logger.error(f"Error in fetch_candles: {e}")
             return pd.DataFrame()
     
-
-
-    from datetime import datetime
-
     def last_complete_candle(self, pair_name):
-        # Lấy dữ liệu OHLC intraday
         intraday_OHLC_df = md_get_intraday_OHLC(pair_name, datetime.now().strftime('%d/%m/%Y'), datetime.now().strftime('%d/%m/%Y'), 1, 1000)
         
         if intraday_OHLC_df is not None and not intraday_OHLC_df.empty:
-            # Lấy thời gian của nến cuối cùng
             last_candle_time = intraday_OHLC_df.iloc[-1]['Time']
-            
-            # Kiểm tra kiểu dữ liệu của last_candle_time
-            if isinstance(last_candle_time, str):
-                try:
-                    # Chuyển đổi thời gian từ chuỗi
-                    last_candle_datetime = datetime.strptime(last_candle_time, '%H:%M:%S').time()
-                except ValueError:
-                    # Xử lý lỗi nếu định dạng không đúng
-                    print(f"Invalid time format: {last_candle_time}")
-                    last_candle_datetime = None
-            else:
-                # Xử lý trường hợp last_candle_time không phải là chuỗi
-                print(f"Expected string but got: {type(last_candle_time)}")
-                last_candle_datetime = None
-            
+            last_candle_datetime = datetime.strptime(last_candle_time, '%H:%M:%S').time()
             return last_candle_datetime
         
         return None
-
 
     async def close_trade(orderID, instrumentID, marketID, buySell, account, deviceId=None, userAgent=None):
         if deviceId is None:

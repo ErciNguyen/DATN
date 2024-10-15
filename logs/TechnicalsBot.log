@@ -1,1 +1,649 @@
-2024-08-16 15:47:52 LogWrapper init() ./logs/TechnicalsBot.log
+2024-10-15 11:06:13 LogWrapper init() ./logs/TechnicalsBot.log
+2024-10-15 11:06:33 
+2024-10-15 11:06:33 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:06:33 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:06:47 
+2024-10-15 11:06:47 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:06:47 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:07:01 
+2024-10-15 11:07:01 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:07:01 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:07:01 
+2024-10-15 11:07:01 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:07:03 Fetched last candle time: 11:06:59 for pair: PDR
+2024-10-15 11:07:03 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:07:03 Trade_decision: -1
+2024-10-15 11:07:03 
+2024-10-15 11:07:17 
+2024-10-15 11:07:17 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:07:17 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:07:17 
+2024-10-15 11:07:17 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:07:19 Fetched last candle time: 11:07:05 for pair: PDR
+2024-10-15 11:07:19 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:07:19 Trade_decision: -1
+2024-10-15 11:07:19 
+2024-10-15 11:07:32 
+2024-10-15 11:07:32 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:07:33 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:07:33 
+2024-10-15 11:07:33 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:07:33 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:08:00 
+2024-10-15 11:08:00 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:08:00 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:08:00 
+2024-10-15 11:08:00 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:08:02 Fetched last candle time: 11:07:58 for pair: PDR
+2024-10-15 11:08:02 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:08:02 Trade_decision: -1
+2024-10-15 11:08:02 
+2024-10-15 11:08:15 
+2024-10-15 11:08:15 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:08:16 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:08:29 
+2024-10-15 11:08:29 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:08:29 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:08:29 
+2024-10-15 11:08:29 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:08:30 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:08:43 
+2024-10-15 11:08:43 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:08:44 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:08:57 
+2024-10-15 11:08:57 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:08:57 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:08:57 
+2024-10-15 11:08:57 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:08:58 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:09:11 
+2024-10-15 11:09:11 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:09:12 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:09:25 
+2024-10-15 11:09:25 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:09:25 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:09:25 
+2024-10-15 11:09:25 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:09:28 Fetched last candle time: 11:09:11 for pair: PDR
+2024-10-15 11:09:28 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:09:28 Trade_decision: -1
+2024-10-15 11:09:28 
+2024-10-15 11:09:41 
+2024-10-15 11:09:41 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:09:41 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:09:41 
+2024-10-15 11:09:41 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:09:42 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:09:55 
+2024-10-15 11:09:55 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:09:55 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:10:09 
+2024-10-15 11:10:09 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:10:09 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:10:09 
+2024-10-15 11:10:09 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:10:11 Fetched last candle time: 11:10:01 for pair: PDR
+2024-10-15 11:10:11 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:10:11 Trade_decision: -1
+2024-10-15 11:10:11 
+2024-10-15 11:10:26 
+2024-10-15 11:10:26 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:10:27 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:10:40 
+2024-10-15 11:10:40 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:10:40 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:10:40 
+2024-10-15 11:10:40 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:10:43 Fetched last candle time: 11:10:39 for pair: PDR
+2024-10-15 11:10:43 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:10:43 Trade_decision: -1
+2024-10-15 11:10:43 
+2024-10-15 11:10:56 
+2024-10-15 11:10:56 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:10:56 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:10:56 
+2024-10-15 11:10:56 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:10:59 Fetched last candle time: 11:10:54 for pair: PDR
+2024-10-15 11:10:59 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:10:59 Trade_decision: -1
+2024-10-15 11:10:59 
+2024-10-15 11:11:12 
+2024-10-15 11:11:12 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:11:12 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:11:26 
+2024-10-15 11:11:26 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:11:26 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:11:26 
+2024-10-15 11:11:26 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:11:29 Fetched last candle time: 11:11:20 for pair: PDR
+2024-10-15 11:11:29 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:11:29 Trade_decision: -1
+2024-10-15 11:11:29 
+2024-10-15 11:11:42 
+2024-10-15 11:11:42 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:11:42 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:11:42 
+2024-10-15 11:11:42 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:11:43 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:11:56 
+2024-10-15 11:11:56 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:11:56 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:11:56 
+2024-10-15 11:11:56 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:11:59 Fetched last candle time: 11:11:54 for pair: PDR
+2024-10-15 11:11:59 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:11:59 Trade_decision: -1
+2024-10-15 11:11:59 
+2024-10-15 11:12:12 
+2024-10-15 11:12:12 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:12:15 Fetched last candle time: 11:11:53 for pair: MBB
+2024-10-15 11:12:15 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4      MA_8    PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:51  14300  25900.000000       0  MBB  25870.833333  25881.25  25862.500000  25883.333333 -20.833333 -10.416667
+9  09:24:59  35600  25866.666667      50  MBB  25875.000000  25875.00  25870.833333  25881.250000 -10.416667   0.000000
+2024-10-15 11:12:15 Trade_decision: -1
+2024-10-15 11:12:15 
+2024-10-15 11:12:15 
+2024-10-15 11:12:15 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:12:16 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:12:42 
+2024-10-15 11:12:42 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:12:42 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:12:42 
+2024-10-15 11:12:42 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:12:43 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:12:56 
+2024-10-15 11:12:56 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:12:57 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:12:57 
+2024-10-15 11:12:57 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:12:59 Fetched last candle time: 11:12:46 for pair: PDR
+2024-10-15 11:12:59 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:12:59 Trade_decision: -1
+2024-10-15 11:12:59 
+2024-10-15 11:13:13 
+2024-10-15 11:13:13 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:13:13 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:13:13 
+2024-10-15 11:13:13 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:13:15 Fetched last candle time: 11:13:08 for pair: PDR
+2024-10-15 11:13:15 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:13:15 Trade_decision: -1
+2024-10-15 11:13:15 
+2024-10-15 11:13:29 
+2024-10-15 11:13:29 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:13:29 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:13:29 
+2024-10-15 11:13:29 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:13:32 Fetched last candle time: 11:13:19 for pair: PDR
+2024-10-15 11:13:32 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:13:32 Trade_decision: -1
+2024-10-15 11:13:32 
+2024-10-15 11:14:00 
+2024-10-15 11:14:00 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:14:01 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:14:01 
+2024-10-15 11:14:01 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:14:01 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:14:15 
+2024-10-15 11:14:15 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:14:15 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:14:15 
+2024-10-15 11:14:15 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:14:17 Fetched last candle time: 11:14:08 for pair: PDR
+2024-10-15 11:14:17 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:14:17 Trade_decision: -1
+2024-10-15 11:14:17 
+2024-10-15 11:14:30 
+2024-10-15 11:14:30 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:14:31 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:14:44 
+2024-10-15 11:14:44 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:14:44 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:14:58 
+2024-10-15 11:14:58 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:14:58 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:15:11 
+2024-10-15 11:15:11 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:15:12 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:15:25 
+2024-10-15 11:15:25 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:15:26 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:15:52 
+2024-10-15 11:15:52 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:15:53 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:15:53 
+2024-10-15 11:15:53 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:15:53 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:16:07 
+2024-10-15 11:16:07 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:16:07 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:16:07 
+2024-10-15 11:16:07 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:16:09 Fetched last candle time: 11:16:03 for pair: PDR
+2024-10-15 11:16:09 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:16:09 Trade_decision: -1
+2024-10-15 11:16:09 
+2024-10-15 11:16:22 
+2024-10-15 11:16:22 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:16:23 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:16:35 
+2024-10-15 11:16:35 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:16:35 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:16:35 
+2024-10-15 11:16:35 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:16:35 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:16:49 
+2024-10-15 11:16:49 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:16:49 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:16:49 
+2024-10-15 11:16:49 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:16:51 Fetched last candle time: 11:16:49 for pair: PDR
+2024-10-15 11:16:51 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:16:51 Trade_decision: -1
+2024-10-15 11:16:51 
+2024-10-15 11:17:05 
+2024-10-15 11:17:05 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:17:05 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:17:33 
+2024-10-15 11:17:33 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:17:33 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:17:33 
+2024-10-15 11:17:33 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:17:35 Fetched last candle time: 11:17:33 for pair: PDR
+2024-10-15 11:17:35 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:17:35 Trade_decision: -1
+2024-10-15 11:17:35 
+2024-10-15 11:17:49 
+2024-10-15 11:17:49 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:17:49 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:17:49 
+2024-10-15 11:17:49 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:17:51 Fetched last candle time: 11:17:43 for pair: PDR
+2024-10-15 11:17:51 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:17:51 Trade_decision: -1
+2024-10-15 11:17:51 
+2024-10-15 11:18:04 
+2024-10-15 11:18:04 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:18:05 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:18:05 
+2024-10-15 11:18:05 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:18:07 Fetched last candle time: 11:18:03 for pair: PDR
+2024-10-15 11:18:07 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:18:07 Trade_decision: -1
+2024-10-15 11:18:07 
+2024-10-15 11:18:21 
+2024-10-15 11:18:21 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:18:23 Fetched last candle time: 11:18:11 for pair: MBB
+2024-10-15 11:18:23 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4      MA_8    PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:51  14300  25900.000000       0  MBB  25870.833333  25881.25  25862.500000  25883.333333 -20.833333 -10.416667
+9  09:24:59  35600  25866.666667      50  MBB  25875.000000  25875.00  25870.833333  25881.250000 -10.416667   0.000000
+2024-10-15 11:18:23 Trade_decision: -1
+2024-10-15 11:18:23 
+2024-10-15 11:18:23 
+2024-10-15 11:18:23 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:18:23 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:18:36 
+2024-10-15 11:18:36 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:18:37 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:18:37 
+2024-10-15 11:18:37 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:18:37 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:18:51 
+2024-10-15 11:18:51 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:18:51 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:18:51 
+2024-10-15 11:18:51 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:18:51 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:19:04 
+2024-10-15 11:19:04 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:19:05 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:19:05 
+2024-10-15 11:19:05 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:19:07 Fetched last candle time: 11:18:59 for pair: PDR
+2024-10-15 11:19:07 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:19:07 Trade_decision: -1
+2024-10-15 11:19:07 
+2024-10-15 11:19:21 
+2024-10-15 11:19:21 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:19:23 Error fetching candles for pair: MBB, expected time: 2024-10-15 11:19:04, actual time: 2024-10-15 11:19:19
+2024-10-15 11:19:23 
+2024-10-15 11:19:23 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:19:24 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:19:38 
+2024-10-15 11:19:38 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:19:38 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:19:38 
+2024-10-15 11:19:38 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:19:41 Fetched last candle time: 11:19:31 for pair: PDR
+2024-10-15 11:19:41 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:19:41 Trade_decision: -1
+2024-10-15 11:19:41 
+2024-10-15 11:19:54 
+2024-10-15 11:19:54 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:19:54 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:19:54 
+2024-10-15 11:19:54 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:19:56 Fetched last candle time: 11:19:47 for pair: PDR
+2024-10-15 11:19:56 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:19:56 Trade_decision: -1
+2024-10-15 11:19:56 
+2024-10-15 11:20:10 
+2024-10-15 11:20:10 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:20:10 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:20:24 
+2024-10-15 11:20:24 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:20:24 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:20:24 
+2024-10-15 11:20:24 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:20:25 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:20:38 
+2024-10-15 11:20:38 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:20:38 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:20:52 
+2024-10-15 11:20:52 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:20:52 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:21:06 
+2024-10-15 11:21:06 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:21:06 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:21:06 
+2024-10-15 11:21:06 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:21:08 Fetched last candle time: 11:21:00 for pair: PDR
+2024-10-15 11:21:08 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:21:08 Trade_decision: -1
+2024-10-15 11:21:08 
+2024-10-15 11:21:23 
+2024-10-15 11:21:23 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:21:23 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:21:23 
+2024-10-15 11:21:23 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:21:24 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:21:37 
+2024-10-15 11:21:37 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:21:38 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:21:51 
+2024-10-15 11:21:51 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:21:52 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:21:52 
+2024-10-15 11:21:52 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:21:54 Fetched last candle time: 11:21:49 for pair: PDR
+2024-10-15 11:21:54 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:21:54 Trade_decision: -1
+2024-10-15 11:21:54 
+2024-10-15 11:22:07 
+2024-10-15 11:22:07 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:22:07 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:22:21 
+2024-10-15 11:22:21 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:22:21 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:22:34 
+2024-10-15 11:22:34 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:22:35 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:22:35 
+2024-10-15 11:22:35 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:22:37 Fetched last candle time: 11:22:29 for pair: PDR
+2024-10-15 11:22:37 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:22:37 Trade_decision: -1
+2024-10-15 11:22:37 
+2024-10-15 11:22:50 
+2024-10-15 11:22:50 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:22:51 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:23:04 
+2024-10-15 11:23:04 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:23:04 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:23:04 
+2024-10-15 11:23:04 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:23:07 Fetched last candle time: 11:23:05 for pair: PDR
+2024-10-15 11:23:07 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:23:07 Trade_decision: -1
+2024-10-15 11:23:07 
+2024-10-15 11:23:20 
+2024-10-15 11:23:20 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:23:20 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:23:20 
+2024-10-15 11:23:20 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:23:22 Fetched last candle time: 11:23:15 for pair: PDR
+2024-10-15 11:23:22 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:23:22 Trade_decision: -1
+2024-10-15 11:23:22 
+2024-10-15 11:23:36 
+2024-10-15 11:23:36 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:23:36 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:23:36 
+2024-10-15 11:23:36 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:23:38 Fetched last candle time: 11:23:23 for pair: PDR
+2024-10-15 11:23:38 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:23:38 Trade_decision: -1
+2024-10-15 11:23:38 
+2024-10-15 11:23:52 
+2024-10-15 11:23:52 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:23:52 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:23:52 
+2024-10-15 11:23:52 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:23:55 Error fetching candles for pair: PDR, expected time: 2024-10-15 11:23:40, actual time: 2024-10-15 11:23:53
+2024-10-15 11:24:08 
+2024-10-15 11:24:08 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:24:08 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:24:08 
+2024-10-15 11:24:08 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:24:11 Fetched last candle time: 11:24:00 for pair: PDR
+2024-10-15 11:24:11 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:24:11 Trade_decision: -1
+2024-10-15 11:24:11 
+2024-10-15 11:24:37 
+2024-10-15 11:24:37 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:24:38 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:24:51 
+2024-10-15 11:24:51 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:24:51 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:25:04 
+2024-10-15 11:25:04 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:25:05 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:25:18 
+2024-10-15 11:25:18 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:25:19 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:25:45 
+2024-10-15 11:25:45 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:25:46 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:25:46 
+2024-10-15 11:25:46 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:25:48 Fetched last candle time: 11:25:42 for pair: PDR
+2024-10-15 11:25:48 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:25:48 Trade_decision: -1
+2024-10-15 11:25:48 
+2024-10-15 11:26:02 
+2024-10-15 11:26:02 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:26:03 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:26:03 
+2024-10-15 11:26:03 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:26:05 Fetched last candle time: 11:26:03 for pair: PDR
+2024-10-15 11:26:05 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:26:05 Trade_decision: -1
+2024-10-15 11:26:05 
+2024-10-15 11:26:18 
+2024-10-15 11:26:18 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:26:18 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:26:18 
+2024-10-15 11:26:18 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:26:21 Fetched last candle time: 11:26:19 for pair: PDR
+2024-10-15 11:26:21 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:26:21 Trade_decision: -1
+2024-10-15 11:26:21 
+2024-10-15 11:26:35 
+2024-10-15 11:26:35 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:26:36 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:26:49 
+2024-10-15 11:26:49 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:26:49 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:26:49 
+2024-10-15 11:26:49 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:26:51 Fetched last candle time: 11:26:42 for pair: PDR
+2024-10-15 11:26:51 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:26:51 Trade_decision: -1
+2024-10-15 11:26:51 
+2024-10-15 11:27:05 
+2024-10-15 11:27:05 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:27:05 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:27:05 
+2024-10-15 11:27:05 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:27:08 Fetched last candle time: 11:27:06 for pair: PDR
+2024-10-15 11:27:08 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:27:08 Trade_decision: -1
+2024-10-15 11:27:08 
+2024-10-15 11:27:22 
+2024-10-15 11:27:22 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:27:26 Fetched last candle time: 11:27:08 for pair: PDR
+2024-10-15 11:27:26 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:27:26 Trade_decision: -1
+2024-10-15 11:27:26 
+2024-10-15 11:27:40 
+2024-10-15 11:27:40 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:27:40 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:27:54 
+2024-10-15 11:27:54 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:27:55 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:28:21 
+2024-10-15 11:28:21 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:28:21 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:28:35 
+2024-10-15 11:28:35 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:28:35 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:28:35 
+2024-10-15 11:28:35 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:28:35 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:28:49 
+2024-10-15 11:28:49 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:28:49 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:29:03 
+2024-10-15 11:29:03 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:29:03 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:29:16 
+2024-10-15 11:29:16 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:29:17 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:29:17 
+2024-10-15 11:29:17 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:29:17 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:29:31 
+2024-10-15 11:29:31 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:29:31 No data returned from fetch_candles for pair: PDR
+2024-10-15 11:29:44 
+2024-10-15 11:29:44 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:29:45 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:29:45 
+2024-10-15 11:29:45 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:29:47 Fetched last candle time: 11:29:44 for pair: PDR
+2024-10-15 11:29:47 Processed_df
+       Time Volume         mid_c  SPREAD PAIR          MA_4          MA_8  PREV_SHORT     PREV_LONG     D_PREV      D_NOW
+8  09:23:31    800  20900.000000       0  PDR  20937.500000  20958.333333     20962.5  20956.250000   6.250000 -20.833333
+9  09:24:59  11400  20916.666667      50  PDR  20920.833333  20956.250000     20937.5  20958.333333 -20.833333 -35.416667
+2024-10-15 11:29:47 Trade_decision: -1
+2024-10-15 11:29:47 
+2024-10-15 11:30:00 
+2024-10-15 11:30:00 get_trade_decision() pair: MBB max_rows: 10
+2024-10-15 11:30:01 No data returned from fetch_candles for pair: MBB
+2024-10-15 11:30:01 
+2024-10-15 11:30:01 get_trade_decision() pair: PDR max_rows: 10
+2024-10-15 11:30:01 No data returned from fetch_candles for pair: PDR

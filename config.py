@@ -5,6 +5,8 @@ access_jwt = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJhdWQiOiAiZjU0MzliZDhjO
 
 url = 'https://fc-data.ssi.com.vn/'
 stream_url = 'https://fc-datahub.ssi.com.vn/'
-BUY =1
-SELL =-1
-NONE =0
+TwoFAType = 1 # 0-PIN, 1-OTP
+NotifyId = '-1'
+BUY =0
+SELL =1
+NONE =-1
